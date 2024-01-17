@@ -1,5 +1,7 @@
 # QA Automation Coding Challenge
 
+## See setup.md for instructions on how to run the project and tests
+
 Thank you for taking the time to complete this challenge!
 
 This repo consists of a basic working app for which you are requested to setup a simple testing infrastructure, extract the main user flows, and implement tests.
