@@ -87,11 +87,11 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Get Github Repos</h1>
+        <h1 data-cy="header">Get Github Repos</h1>
       </header>
 
       <main>
-        <section className="message-area">
+        <section data-cy="message" className="message-area">
           {message && (
             <p className={`message-${message.type}`}>
               <strong>{message.message}</strong>
