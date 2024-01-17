@@ -102,15 +102,15 @@ function App() {
         <form className="input-area">
           <div className="field-username">
             <label htmlFor="username">Github Username</label>
-            <input id="username" onChange={handleChange}></input>
+            <input data-cy="username" id="username" onChange={handleChange}></input>
           </div>
 
-          <button className="submit" type="submit" onClick={handleSubmit}>
+          <button data-cy="submit" className="submit" type="submit" onClick={handleSubmit}>
             Go
           </button>
         </form>
 
-        <section className="output-area">
+        <section data-cy="output-area" className="output-area">
           {dataState === LOADING_STATE.LOADING && (
             <div className="circle"></div>
           )}
@@ -119,8 +119,8 @@ function App() {
           )}
           {dataState === LOADING_STATE.IDLE && repos.length > 0 && (
             <div className="repo-list-container">
-              <p className="repo-amount">Found {repos.length} Repos</p>
-              <ul>
+              <p data-cy="repo-amount" className="repo-amount">Found {repos.length} Repos</p>
+              <ul data-cy="repo-list">
                 {repos &&
                   repos.map(({ id, name, description, html_url }) => (
                     <li className="repo-row" key={id}>
