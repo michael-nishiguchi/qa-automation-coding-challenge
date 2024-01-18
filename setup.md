@@ -10,12 +10,11 @@ You can add more scripts (or change existing ones) in the [`package.json`](./pac
 
 1. Open a SEPERATE console from the one running the app
 2. Start the cypress tests by running `yarn run cypress open`
-![Cypress Welsome Screen](screenshots/welcome-to-cypress.png?raw=true "Welcome to Cypress")
+   1. If Cypress is not installed, follow the promts to install
 3. Click on the E2E Testing button
-![Browser select Screen](screenshots/browser-select.png?raw=true "Browser Select")
+   ![Cypress Welsome Screen](screenshots/welcome-to-cypress.png?raw=true "Welcome to Cypress")
 4. Select Chrome
-![Cypress Welsome Screen](screenshots/welcome-to-cypress.png?raw=true "Welcome to Cypress")
-5. Select spec.cy.js to start the tests
-![Test selection](screenshots/test-selection.png?raw=true "Test Selection")
-
-
+   ![Browser select Screen](screenshots/browser-select.png?raw=true "Browser Select")
+5. A new chrome window will launch. Select spec.cy.js to start the tests
+   ![Cypress Welsome Screen](screenshots/welcome-to-cypress.png?raw=true "Welcome to Cypress")
+   ![Test selection](screenshots/test-selection.png?raw=true "Test Selection")
