@@ -16,5 +16,4 @@ You can add more scripts (or change existing ones) in the [`package.json`](./pac
 4. Select Chrome
    ![Browser select Screen](screenshots/browser-select.png?raw=true "Browser Select")
 5. A new chrome window will launch. Select spec.cy.js to start the tests
-   ![Cypress Welsome Screen](screenshots/welcome-to-cypress.png?raw=true "Welcome to Cypress")
    ![Test selection](screenshots/test-selection.png?raw=true "Test Selection")
